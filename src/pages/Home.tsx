@@ -90,7 +90,7 @@ export const Home = () => {
             className="inline-block mb-4 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 rounded-full"
           >
             <span className="text-primary-700 dark:text-primary-300 font-semibold text-sm">
-              Pradhan Mantri Anusuchit Jaati Abhyuday Yojana
+              AJAYGRAM - Digital Beneficiary Management
             </span>
           </motion.div>
 
@@ -167,7 +167,7 @@ export const Home = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Key Features</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">Key Features</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
               Comprehensive solutions for beneficiary management
             </p>
@@ -191,7 +191,7 @@ export const Home = () => {
                 <div className="w-14 h-14 bg-primary-100 dark:bg-primary-900/30 rounded-xl flex items-center justify-center mb-4">
                   <feature.icon className="text-primary-600 dark:text-primary-400" size={28} />
                 </div>
-                <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{feature.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">{feature.description}</p>
               </motion.div>
             ))}

@@ -28,13 +28,15 @@ export const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="flex items-center space-x-2"
+              className="flex items-center space-x-3"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">PA</span>
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
-                PM-AJAY GIA
+              <img
+                src="https://i.ibb.co/HfPw3QT6/logo.jpg"
+                alt="AJAYGRAM Logo"
+                className="h-10 w-auto object-contain"
+              />
+              <span className="text-xl font-bold text-gray-900 dark:text-white">
+                AJAYGRAM
               </span>
             </motion.div>
           </Link>

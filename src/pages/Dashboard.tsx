@@ -73,7 +73,7 @@ export const Dashboard = () => {
         >
           <h1 className="text-4xl font-bold mb-2 text-gray-900 dark:text-white">Dashboard</h1>
           <p className="text-gray-600 dark:text-gray-400">
-            Overview of PM-AJAY GIA beneficiary management system
+            Overview of AJAYGRAM beneficiary management system
           </p>
         </motion.div>
 

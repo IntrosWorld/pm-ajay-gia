@@ -14,7 +14,7 @@ export const AIChatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hello! I'm the PM-AJAY AI Assistant. I can help you with beneficiary information, eligibility criteria, and program details. How can I assist you today?",
+      text: "Hello! I'm the AJAYGRAM AI Assistant. I can help you with beneficiary information, eligibility criteria, and program details. How can I assist you today?",
       isBot: true,
       timestamp: new Date(),
     },
@@ -33,7 +33,7 @@ export const AIChatbot = () => {
     const lowerMessage = userMessage.toLowerCase();
 
     if (lowerMessage.includes('eligibility') || lowerMessage.includes('criteria')) {
-      return "The eligibility criteria for PM-AJAY GIA include:\n\n✓ Must belong to Scheduled Caste (SC) community\n✓ Age between 18-45 years\n✓ Annual family income below ₹1 lakh\n✓ Should have valid identity proof\n✓ Residence proof of the state\n\nWould you like more details on any specific criterion?";
+      return "The eligibility criteria for AJAYGRAM include:\n\n✓ Must belong to Scheduled Caste (SC) community\n✓ Age between 18-45 years\n✓ Annual family income below ₹1 lakh\n✓ Should have valid identity proof\n✓ Residence proof of the state\n\nWould you like more details on any specific criterion?";
     }
 
     if (lowerMessage.includes('add beneficiary') || lowerMessage.includes('register')) {
@@ -45,7 +45,7 @@ export const AIChatbot = () => {
     }
 
     if (lowerMessage.includes('program') || lowerMessage.includes('categories') || lowerMessage.includes('category')) {
-      return "PM-AJAY GIA has 3 main program categories:\n\n📊 Income Generation\n• Entrepreneurship support\n• Livelihood enhancement\n• Business loans & grants\n\n🎓 Skill Development\n• Vocational training\n• Employability programs\n• Certification courses\n\n🏗️ Infrastructure Support\n• Community facilities\n• Basic amenities\n• Development projects\n\nWhich category interests you?";
+      return "AJAYGRAM has 3 main program categories:\n\n📊 Income Generation\n• Entrepreneurship support\n• Livelihood enhancement\n• Business loans & grants\n\n🎓 Skill Development\n• Vocational training\n• Employability programs\n• Certification courses\n\n🏗️ Infrastructure Support\n• Community facilities\n• Basic amenities\n• Development projects\n\nWhich category interests you?";
     }
 
     if (lowerMessage.includes('score') || lowerMessage.includes('ai') || lowerMessage.includes('ml')) {
@@ -57,7 +57,7 @@ export const AIChatbot = () => {
     }
 
     if (lowerMessage.includes('thank')) {
-      return "You're welcome! 😊 Feel free to ask if you have any more questions about PM-AJAY GIA programs or beneficiary management. I'm here to help!";
+      return "You're welcome! 😊 Feel free to ask if you have any more questions about AJAYGRAM programs or beneficiary management. I'm here to help!";
     }
 
     // Default response
@@ -134,7 +134,7 @@ export const AIChatbot = () => {
                   <Bot size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-white font-bold">PM-AJAY AI Assistant</h3>
+                  <h3 className="text-white font-bold">AJAYGRAM AI Assistant</h3>
                   <p className="text-purple-100 text-xs">Always here to help</p>
                 </div>
               </div>
